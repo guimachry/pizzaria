@@ -1,0 +1,18 @@
+create table sabores_pizza (
+	id serial primary key,
+	nome varchar(60),
+	preco decimal
+)
+
+create table acompanhamentos (
+	id serial primary key,
+	nome varchar(60),
+	preco decimal
+)
+
+create table bebidas(
+	id serial primary key,
+	nome varchar(60),
+	preco decimal,
+	marca varchar(60)
+)
